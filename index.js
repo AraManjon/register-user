@@ -11,6 +11,8 @@ const password = document.getElementById("password").value
 const newUser = new User (userName, password)
 usuariosArray.push(newUser) 
 console.log(usuariosArray)
+userName.innerHTML = ''
+password.innerHTML = ''
 }
 
 const button1HTML = document.getElementById("logIn");
