@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 </head>
 <body>
     <h2>Registro usuario</h2>
-    <input type="text" id="usuario">
-    <button onclick="añadirUsuario()">añadir usuario</button>
+    <input type="text" id="userName" placeholder="username">
+    <input type="text" id="password" placeholder="password">
+    <button id="addUser">añadir usuario</button>
+
     <h2>Loggear</h2>
-    <input type="text" id="logIn">
-    <button onclick="logIn()">Entrar</button>
+    <input type="text" id="loginUsername" placeholder="username">
+    <input type="text" id="loginPassword" placeholder="password">
+    <button id="logIn">Entrar</button>
     <p id="result"></p>
     
 </body>
