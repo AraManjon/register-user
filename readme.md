@@ -3,4 +3,4 @@
 Prueba de cambios GitHub.  
 Llueve  
 
-AT: Intento añadir password y class usuario al index.js
+AT: Añadido classUser.js y index.css

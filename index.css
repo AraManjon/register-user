@@ -1,0 +1,7 @@
+body { margin: 0 auto; width:80%; font-family: 'Segoe UI', 'Open sans', Geneva, Verdana, sans-serif;}
+      #container {padding: 0.5em 2em 0.5em 2em;}
+      #userName {background-color:rgba(188, 188, 251, 0.876); color: white;}
+      #password {background-color:rgb(158, 210, 250); color: white;}
+      #loginUsername {background-color:rgba(188, 188, 251, 0.876); color: white;}
+      #loginPassword {background-color:rgb(158, 210, 250); color: white;}
+      #result {background-color:rgb(158, 250, 196); color:rgb(251, 3, 3); width: 400px; text-align: center;}
