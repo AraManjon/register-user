@@ -14,4 +14,13 @@ get UserName () {
 get Password () {
     return this.#password
 }
+
+set UserName (element) {
+    this.#userName = element
+}
+
+set Password (element) {
+    this.#password = element
+}
+
 }

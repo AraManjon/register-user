@@ -2,17 +2,19 @@ import { User } from './classUser.js'
 
 const buttonHTML = document.getElementById("addUser");
 buttonHTML.addEventListener("click", addUser); 
+const userNameHTML = document.getElementById("userName")
+const passwordHTML = document.getElementById("password")
 
 const usuariosArray = []
 
 function addUser() {
-const userName = document.getElementById("userName").value
-const password = document.getElementById("password").value
+const userName = userNameHTML.value
+const password = passwordHTML.value
 const newUser = new User (userName, password)
 usuariosArray.push(newUser) 
 console.log(usuariosArray)
-userName.innerHTML = ''
-password.innerHTML = ''
+userNameHTML.value = ''
+passwordHTML.value = ''
 }
 
 const button1HTML = document.getElementById("logIn");
