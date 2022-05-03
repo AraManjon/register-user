@@ -1,7 +1,63 @@
-body { margin: 0 auto; width:80%; font-family: 'Segoe UI', 'Open sans', Geneva, Verdana, sans-serif;}
-      #container {padding: 0.5em 2em 0.5em 2em;}
-      #userName {background-color:rgba(188, 188, 251, 0.876); color: white;}
-      #password {background-color:rgb(158, 210, 250); color: white;}
-      #loginUsername {background-color:rgba(188, 188, 251, 0.876); color: white;}
-      #loginPassword {background-color:rgb(158, 210, 250); color: white;}
-      #result {background-color:rgb(158, 250, 196); color:rgb(251, 3, 3); width: 400px; text-align: center;}
+body {
+      min-height: 100vh;
+      background-image: url(./fondo.jpg);
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
+      opacity: 0.9;  
+     
+	margin: 0 auto;
+	width: 80%;
+	font-family: 'Segoe UI', 'Open sans', Geneva, Verdana, sans-serif; 
+    
+}
+#container {
+	padding: 0.5em 2em 0.5em 2em;
+}
+#userName {
+	background-color: rgba(188, 188, 251, 0.876);
+	color: white;
+}
+#password {
+	background-color: rgb(158, 210, 250);
+	color: white;
+}
+#loginUsername {
+	background-color: rgba(188, 188, 251, 0.876);
+	color: white;
+}
+#loginPassword {
+	background-color: rgb(158, 210, 250);
+	color: white;
+}
+#result {
+	background-color: rgb(158, 250, 196);
+	color: rgb(251, 3, 3);
+	width: 400px;
+	text-align: center;
+}
+input {
+	border-radius: 3px;
+      font-size: medium;
+}
+
+button {
+background-color: #0865f1; /* Blue */
+  border-radius: 5px;
+  color: white;
+  padding: 3px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+ 
+  cursor: pointer;
+  border: 2px solid #008CBA;
+}
+
+button1:hover {
+  opacity: 1;
+      
+}
